@@ -1,0 +1,222 @@
+
+.search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    width: 60%;
+    
+}
+
+body {
+    min-height: 100vh;
+    background-color: #f5f6f7;
+    display: flex;
+    flex-direction: column;
+    
+}
+.app-container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0,01fr);
+    
+    
+}
+.main-container {
+    flex: 1;
+}
+.country-dropdown{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    background-color: #e6e3e3;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.country-dropdown:hover{
+    cursor: pointer;
+}
+.search-bar{
+    width: 80%;
+    padding: 10px;
+    background-color: #e6e3e3;
+    border: none;
+    
+}
+
+.search-btn{
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 12%;
+    border-bottom-right-radius: 12%;
+    font-size: 14px;
+    background-color: #e6e3e3;
+    
+}
+
+.search-btn:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.title-container{
+    display: flex;
+    justify-content: center;
+    
+    background-color: #57A0D2;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    
+}
+.title-container h1 {
+    align-items: center;
+}
+.menu-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.category-container{
+    justify-content: center;
+    display: flex;
+
+}
+.category-container button{
+    padding: 5px;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 20px;
+     
+}
+.category-container button.active{
+    background-color: #57A0D2;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.category-container button:hover{
+    cursor: pointer;
+    
+}
+.loading-news{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0b0028;
+    margin-top: 20px;
+}
+
+.news-card{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50rem;
+    align-content:center ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    margin: 10px;
+    padding: 2px;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+}
+.news-card img{
+    width: 350px;
+    height: 200px;
+    margin-bottom: 7px;
+    margin: 7px;
+    border-radius: 2%;
+}
+.news-card h2 a{
+    font-size: 25px;
+    color: #0b0028;
+    background-color: none;
+    font-size: 22px;
+}
+.news-card h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.news-card p{
+    color: #6f6f6f;
+    
+    margin: 0.8rem 0 1rem 0;
+}
+.read-more{
+    background-color: #57A0D2;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.3rem 0.2rem;
+    border-radius: 5px;
+    width: 7rem;
+}
+.read-more-btn{
+    padding: 8px 12px;
+    background-color: #57A0D2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+.read-more-btn:hover{
+    background-color: #8dbfe0;
+}
+
+.article-info{
+    padding: min(2rem,5 vw) min(2rem, 5vm) min(2.5rem, 5vw);
+    flex: 1 0 50%;
+}
+.article-info > * + * {
+    margin: min(1.5rem, 2.5vw) 0 0 0;
+}
+.articles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-height: 100%;
+    overflow-y: auto;
+    
+}
+.no-result {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0b0028;
+    margin-top: 20px;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    margin: 1%;
+}
+.pagination button{
+    border-radius: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.footer-section{
+    text-align: center;
+    padding: 10px;
+    background-color: #EBE8E8;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
