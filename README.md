@@ -1,6 +1,6 @@
 ## News Search Api
 
-First, run the development server:
+The purose of this project is to practice React.js and API fetching.
 
 ```bash
 npm run dev
