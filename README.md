@@ -1,4 +1,4 @@
-# News Search Api
+# News Search API
 
 ##### The purpose of this project is to practice React.js and API fetching.
 
