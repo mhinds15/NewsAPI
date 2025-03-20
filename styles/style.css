@@ -36,6 +36,7 @@ body {
     background-color: #e6e3e3;
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
+    color: #0b0028;
 }
 .country-dropdown:hover{
     cursor: pointer;
@@ -55,6 +56,7 @@ body {
     border-bottom-right-radius: 12%;
     font-size: 14px;
     background-color: #e6e3e3;
+    color: #0b0028;
     
 }
 
@@ -99,12 +101,17 @@ body {
     border-radius: 20px;
     margin: 20px;
     font-size: 20px;
+    border-color: black;
+    background-color: #f5f6f7;
+    color: #0b0028;
+    
      
 }
 .category-container button.active{
     background-color: #57A0D2;
     font-weight: bold;
     transform: scale(1.1);
+    color: #0b0028;
 }
 .category-container button:hover{
     cursor: pointer;
@@ -138,6 +145,7 @@ body {
     margin-bottom: 7px;
     margin: 7px;
     border-radius: 2%;
+    color: #0b0028;
 }
 .news-card h2 a{
     font-size: 25px;
@@ -210,6 +218,20 @@ body {
     border-radius: 12px;
     padding: 5px;
     cursor: pointer;
+    border: 2px #0b0028;
+    background-color: #e6e3e3;
+    color: #0b0028;
+    border-color: red;
+    
+}
+.pagination button:disabled{
+    cursor: not-allowed;
+    opacity: 0.6;
+    color: #666;
+    
+}
+.pagination span{
+    color: #0b0028;
 }
 
 .footer-section{
@@ -219,4 +241,5 @@ body {
     bottom: 0;
     width: 100%;
     margin-top: auto;
+    color: #0b0028;
 }
