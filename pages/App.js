@@ -3,13 +3,16 @@ import Footer from './Footer';
 import Title from './Title';
 import News from './News';
 
-//should use env variables
-const API_KEY = '593b53e09aef4cc8968167be7a585969';
-const PAGE_SIZE = 6; //number or articles displayed per page
-const SEARCH_URL = "https://newsapi.org/v2/everything";
+
 
 const App = ()=>{
     
+    //should use env variables
+    const API_KEY = '593b53e09aef4cc8968167be7a585969';
+    const PAGE_SIZE = 6; //number or articles displayed per page
+    const SEARCH_URL = "https://newsapi.org/v2/everything";
+
+
     //STATES 
     const [search, setSearch] = useState("");//Store input from search bar
     const [articles, setArticles] = useState([]);//Ensure that articles is an array 
