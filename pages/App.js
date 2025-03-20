@@ -13,7 +13,7 @@ const App = ()=>{
     //STATES 
     const [search, setSearch] = useState("");//Store input from search bar
     const [articles, setArticles] = useState([]);//Ensure that articles is an array 
-    const[selectedCountry, setSelectedCountry] = useState("us"); //default country on is (US)
+    const[selectedCountry, setSelectedCountry] = useState("us"); //default country is (US)
     const[selectedCategory, setSelectedCategory] = useState("General"); //default category is General
     const [submittedQuery, setSubmittedQuery] = useState("");
     const [loading, setLoading] = useState(false);//Loading state, shows loading indicator while fetching
