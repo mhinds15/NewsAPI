@@ -9,6 +9,7 @@
 > - Next.js Hooks (State/Effect)
 > - JSX, components, props, css modules, etc
 
-(Next.js, Javascript, HTML, CSS)
+(Next.js, Javascript, HTML, CSS)\
+
 ![NewsProjectDemoV2](https://github.com/user-attachments/assets/8b4d34b7-7303-4dfe-b11e-a4cf8800b7cf)
 
